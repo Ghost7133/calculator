@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <script src="script.js" defer></script>
+    <div class="main">
+        <div class="calculator">
+            <span id="expr"></span>
+            <div class="buttons">
+                <div class="row">
+                    <button class="btn" onclick="on_del()">DEL</button>
+                    <button class="btn" onclick="on_c()">C</button>
+                    <button class="btn" onclick="on_sq()">x^2</button>
+                    <button class="btn" onclick="on_operation('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="on_click('7')">7</button>
+                    <button class="btn" onclick="on_click('8')">8</button>
+                    <button class="btn" onclick="on_click('9')">9</button>
+                    <button class="btn" onclick="on_operation('*')">*</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="on_click('4')">4</button>
+                    <button class="btn" onclick="on_click('5')">5</button>
+                    <button class="btn" onclick="on_click('6')">6</button>
+                    <button class="btn" onclick="on_operation('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="on_click('1')">1</button>
+                    <button class="btn" onclick="on_click('2')">2</button>
+                    <button class="btn" onclick="on_click('3')">3</button>
+                    <button class="btn" onclick="on_operation('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="on_neg()">+/-</button>
+                    <button class="btn" onclick="on_click('0')">0</button>
+                    <button class="btn" onclick="on_click('.')"'>.</button>
+                    <button id="equ" class="btn" onclick="on_calc()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
