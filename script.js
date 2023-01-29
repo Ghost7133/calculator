@@ -94,7 +94,7 @@ function on_calc() {
         .toString();
     
     if (current_op == "Infinity")
-        current_op = "ПОШЁЛ НАХУЙ.";
+        current_op = "Вселенная схлопнулась.";
 
     previous_op = null;
     previous_op = null;
